@@ -1,0 +1,67 @@
+# Overview — Suspicious Browser Extension Audit & Removal
+
+This project documents the process of auditing and removing suspicious browser extensions from **Google Chrome (Windows)** and **Mozilla Firefox ESR (Kali Linux)** as part of my cybersecurity internship.
+
+---
+
+## Purpose
+Browser extensions can enhance productivity, but they also introduce potential **security and privacy risks** — especially when they request broad permissions, come from unknown developers, or are no longer actively used.
+
+The aim of this task was to:
+1. **Identify** all installed browser extensions.
+2. **Review** them for suspicious traits.
+3. **Remove or disable** risky ones.
+4. Apply **best practices** to maintain browser security.
+
+---
+
+## Methodology
+The audit followed a **structured 5-step process**:
+
+1. **Baseline Inventory**
+   - Listed all installed extensions with name, version, ID, permissions, and source.
+   - Captured screenshots for record keeping.
+
+2. **Risk Review**
+   - Evaluated each extension based on permission scope, authenticity, developer reputation, and usage necessity.
+   - Searched online for any reported security issues.
+   - Classified extensions into Safe, Medium Risk, or High Risk.
+
+3. **Safe Removal**
+   - Verified suspicion using **CRXcavator** and **Extension Source Viewer**.
+   - Removed or disabled flagged extensions without breaking necessary workflows.
+   - Cleared cache and verified removal.
+
+4. **Best Practices**
+   - Documented preventive measures to avoid future malicious extension installations.
+
+5. **Outcome**
+   - Screenshots and tables as proof of work.
+   - Preventive security recommendations.
+
+---
+
+## Highlights
+- **Advanced Tools Used**: CRXcavator, Extension Source Viewer.
+- **Cross-Platform Audit**: Both Windows (Chrome) and Kali Linux (Firefox) covered.
+- **Documented Process**: Every step clearly recorded for transparency.
+- **Security Education**: Included a best practices guide for ongoing browser safety.
+
+---
+
+## Deliverables
+- **PDF Report** with detailed steps, findings, and outcomes.
+- **Risk Assessment Table** for all reviewed extensions.
+- **Preventive Recommendations** section.
+
+---
+
+## Outcome
+The final browsers now contain **only trusted, essential extensions**, significantly reducing the risk of:
+- Data theft
+- Unauthorized tracking
+- Browser exploitation via malicious updates
+
+This process not only secured the browsing environment but also provided a replicable model for future security audits.
+
+---
