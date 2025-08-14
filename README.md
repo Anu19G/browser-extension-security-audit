@@ -1,5 +1,5 @@
 # Browser Extension Security Audit
----
+
 
 ## 🎯 Objectives
 - Learn to spot and evaluate potentially harmful browser extensions.
